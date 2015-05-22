@@ -1,162 +1,446 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-      <title>WENDER DALBER - WEB DEVELOPER</title>
+    <title>WENDER DALBER - Start Bootstrap Theme</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom CSS -->
     <link href="stylesheets/style.css" rel="stylesheet">
-    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	
-	<script>
-		$(document).ready(function(){
-    		$("#id_1").click(function(){
-        		$("#id_1").addClass("active");
-				$("#id_2").removeClass("active");
-    		});
-			
-			$("#id_2").click(function(){
-        		$("#id_2").addClass("active");
-				$("#id_1").removeClass("active");
-    		});
-});
-	</script>
-	
-  </head>
 
-  <body>
+</head>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">WENDER DALBER</a>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Wender Dalber</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li id="id_1" class="active"><a href="index.html">Home</a></li>
-            <li id="id_2"><a href="#about">Sobre</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">WENDER DALBER</div>
+                <div class="intro-heading">Web Developer, CTO e Co-Founder <a target="_blank" href="http://betaup.com.br">Betaup</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Conheça um pouco dos meus projetos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/quintopremioapexbrasil.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>5º Prêmio Apex Brasil</h4>
+                        <p class="text-muted">Desenvolvimento Back-end e Front-end</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/terceirobidbrasilapex.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>3 Mostra BID Brasil</h4>
+                        <p class="text-muted">Desenvolvimento Back-end e front-end</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/indicacaopremiada.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Indicação Premiada Sodexo</h4>
+                        <p class="text-muted">Desenvolvimento Back-end</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/clickhotelweb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Click Hotel Web</h4>
+                        <p class="text-muted">Desenvolvimento Back-end e front-end</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sobre</h2>
+                    <h3 class="section-subheading text-muted">Apaixonado por tecnologia, desenvolvedor web a três anos na plataforma .NET, iniciante em Ruby on Rails</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2012</h4>
+                                    <h4 class="subheading">Formação em Tecnólogo de Informática - Enfâse em banco de dados</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Em 2009 iniciei o curso de Tecnologia da Informação na Fatec Guaratingueta. Tive contato com tecnologias Java e .NET de desenvolvimento, além da enfâse em banco de dados trabalhando com Oracle e MySQL!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2013-2014</h4>
+                                    <h4 class="subheading">Especialização em Projeto e Desenvolvimento de Aplicações WEB</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Em março de 2013 iniciei uma especialização em projetos e desenvolvimento de aplicações WEB na Fatea de Lorena. Desenvolvimento de aplicações robustas, testes de carga e unitários. Controle de versão com GIT e desenvolvimento de aplicações em .NET e Grails.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Fevereiro-Setembro 2014</h4>
+                                    <h4 class="subheading">Desenvolvedor Web Plano Digital</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Desenvolvedor web na Agência Plano Digital. Desenvolvimento de web sites para Apex Brasil, Sodexo, Caixa. Foco em aplicações .NET, banco de dados Oracle e SQL Server. Manutenção de servidores web da empresa, gerenciamento e controle de versão com git.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Outubro 2014</h4>
+                                    <h4 class="subheading">Fundação Betaup</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Fundação e inicio dos trabalhos da <a href="http://betaup.com.br" target="_blank">Betaup</a>, ao lado de <a href="https://www.facebook.com/felipeacrocha" target="_blank">Felipe Rocha</a> e <a href="https://www.facebook.com/daniele.fernandes.16100921" target="_blank">Daniele Fernandes</a>. Foco no desenvolvimento do projeto Click Hotel Web, voltado para o gerenciamento de hotéis da região de Aparecida-SP.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>WENDER DALBER
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contato</h2>
+                    <h3 class="section-subheading text-muted">Acesse minhas redes sociais e entre em contato</h3>
+                </div>
+            </div>
+                <div style="margin-left: 35%;" class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Wender Dalber</h4>
+                        <p class="text-muted">Desenvolvedor Web, CTO e Co-Founder <a href="http://betaup.com.br" target="_blank">Betaup</a></p>
+                        <ul class="list-inline social-buttons">
+                            <li><a target="_blank" href="https://twitter.com/wenderdalber"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://facebook.com/wenderdalber"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://br.linkedin.com/in/wenderdalber"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Desenvolvedor web a três anos atuando no mercado. Desenvolvedor na plataforma .NET, formado em Tecnologia da Informação pela Fatec Guaratinguetá e Especializado em Desenvolvimento e Projeto de Aplicações Web pela Fatea Lorena. Tem conhecimento em testes unitários e de carga, controle de versão com GIT e TFS, estudioso de novas tecnologias de desenvolvimento. Incentivador do desenvolvimento de projetos com metodologias ágeis. Conhecimento nas linguagens C#, Ruby on Rails e Grails. Desenvolvimento completo de aplicações web, com conhecimentos em back-end e front-end - JQuery e Bootstrap. Co-Founder e CTO da <a href="http://betaup.com.br" target="_blank">Betaup</a>, empresa localizada em Aparecida-SP. Desenvolvedor back-end e front-end do Projeto Click Hotel Web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Wender Dalber 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a target="_blank" href="https://twitter.com/wenderdalber"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://facebook.com/wenderdalber"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://br.linkedin.com/in/wenderdalber"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Política de Privacidade</a>
+                        </li>
+                        <li><a href="#">Termos de Uso</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 - Premio Apex -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>5º Prêmio Apex Brasil</h2>
+                            <p class="item-intro text-muted">Desenvolvimento back-end e front-end.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/quintopremioapexbrasil.png" alt="">
+                            <p>Desenvolvimento de todo o projeto, desde o banco de dados para inscrições, área de administração do site com visualização dos inscritos e geração de PDF e arquivo Excel das inscrições por categoria. Linguagem .NET e banco de dados Oracle 11g.</p>
+                            <p>
+                                <strong>Para acessar o site e visualizar o trabalho </strong> <a target="_blank" href="http://www.premioapexbrasil.com.br/">clique aqui</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: Fevereiro 2014</li>
+                                <li>Cliente: Apex Brasil</li>
+                                <li>Empresa: Plano Digital</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- Portfolio Modal 2 - 3 Mostra Bid Brasil -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>3 Mostra BID BRASIL</h2>
+                            <p class="item-intro text-muted">Desenvolvimento back-end e fron-end</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/terceirobidbrasilapex.png" alt="">
+                            <p>Desenvolvimento de todo o projeto. Adaptação do layout em .PSD para css e html, criação do diagrama de classe e banco de dados. Desenvolvimento das inscrições, área de administrador com geração de Excel com as inscrições e os tipos de inscrições. Projeto desenvolvimento em .NET, na linguagem C#, com o front-end baseado em css e JQuery.</p>
+                             <strong>Para acessar o site e visualizar o trabalho </strong> <a target="_blank" href="http://bid.apexbrasil.com.br/">clique aqui</a>.</p>
+                             <ul class="list-inline">
+                                <li>Data: Junho 2014</li>
+                                <li>Cliente: Apex Brasil</li>
+                                <li>Empresa: Plano Digital</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div id="headerwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3"></div>
-					<h1>WENDER DALBER</h1>
-					<h4>WEB DEVELOPER, CTO e CO-FOUNDER <a target="_blank" href="http://betaup.net">BETAUP</a></h4>
-				</div>
-			</div><! --/row -->
-	    </div> <!-- /container -->
-	</div><! --/headerwrap -->
-	
-		<section id="about"></section>
-		<div id="aboutwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-				</div>
-			</div><! --/row -->
-	    </div> <!-- /container -->
-	</div><! --/aboutwrap -->
-	<div class="container">
-		<div class="row centered mt mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h2>WENDER DALBER</h2>
-				<p>Especialista em Desenvolvimento de Aplicações Web, desenvolvedor de soluções em software com projetos em MVC C#. Tenho 2 anos de experiência na área de Tecnologia da Informação. 
-					</br>Um resumo das qualificações profissionais:
-			    <br>
-				<p style="text-align: left"></p>- Desenvolvimento de sistemas web na linguagem de programação C#;</br>
-				- Desenvolvimento de soluções web com Asp.Net, JavaScript, Ajax, JQuery em frameworks MVC e Web Forms;</br>
-				- ORM Entity Framework;</br>
-				- Gerenciamento de banco de dados SQL Server, Oracle 11g, MySQL;</br>
-				- Desenvolvimento Ágil através de SCRUM;</br>
-				- Controle de versão com Git/Hub;</p></br>
-				</p>
-			</div>
+    <!-- Portfolio Modal 3 - Indicação Premiada Sodexo -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Indicação Premiada - Sodexo</h2>
+                            <p class="item-intro text-muted">Desenvolvimento back-end</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/indicacaopremiada.png" alt="">
+                            <p>Desenvolvimento de uma nova área de inscrição para integração dos dados com "leads" de campanha da empresa. Integração com a base de dados já existente em MySQl. Tecnologia utilizada .NET, linguagem C#, banco de Dados SQL Server e MySQL.</p>
+                           <strong>Para acessar o site e visualizar o trabalho </strong> <a target="_blank" href="http://www.sodexobeneficios.com.br/indicacao">clique aqui</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: Abril/Fevereiro 2014</li>
+                                <li>Cliente: Sodexo</li>
+                                <li>Empresa: Plano Digital</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		</div><! --/row -->
-	</div><! --/container -->
-	
-	<div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					<a href="index.html"><i class="fa fa-dribbble"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a target="_blank" href="http://facebook.com/wenderdalber"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a target="_blank" href="http://twitter.com/wenderdalber"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a target="_blank" href="https://br.linkedin.com/in/wenderdalber"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a target="_blank" href="http://instagram.com/wenderdalber"><i class="fa fa-instagram"></i></a>
-				</div>
-			
-			</div><! --/row -->
-		</div><! --/container -->
-	</div><! --/social -->
+    <!-- Portfolio Modal 4 - Click Hotel Web -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Click Hotel Web</h2>
+                            <p class="item-intro text-muted">Desenvolvimento back-end e front-end</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/clickhotelweb.png" alt="">
+                            <p>Desenvolvimento back-end e front-end da alicação Click Hotel Web. Um projeto voltado para o gerenciamento de hoteis da cidade de Aparecida-SP, na região do Vale do Paraíba.</p>
+                           <strong>Para acessar o site e visualizar o trabalho </strong> <a target="_blank" href="http://www.betaup.com.br">clique aqui</a>.</p>
+                             <ul class="list-inline">
+                                <li>Data: Outubro 2014</li>
+                                <li>Cliente: Betaup</li>
+                                <li>Empresa: Betaup</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div id="footerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-4">
-					<p><b>WEB DEVELOPER, CTO e CO-FOUNDER <a target="_blank" href="http://betaup.net">BETAUP</a></a></b></p>
-				</div>
-			
-				<div class="col-lg-4">
-					<p>(12) 99609-5481</p>
-				</div>
-				<div class="col-lg-4">
-					<p>wenderdalber@gmail.com</p>
-				</div>
-			</div>
-		</div>
-	</div><! --/footerwrap -->
-	
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
     <script src="javascripts/bootstrap.min.js"></script>
 
-  
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="javascripts/classie.js"></script>
+    <script src="javascripts/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="javascripts/jqBootstrapValidation.js"></script>
+    <script src="javascripts/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="javascripts/agency.js"></script>
+
 </body>
+
 </html>
