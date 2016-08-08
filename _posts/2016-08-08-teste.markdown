@@ -1,7 +1,6 @@
 ---
 published: true
-title: Teste
+title: Um Teste legal
 layout: post
-permalink: 2016-08-08-teste
 ---
-Teste
+um pequeno teste!
